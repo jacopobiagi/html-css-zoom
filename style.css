@@ -15,6 +15,7 @@ header{
     display: flex;
     right: 0;
     z-index: 1;
+    margin-right: 20px;
 }
 
 header div{
@@ -78,5 +79,52 @@ footer{
     height: 70px;
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
+footer div{
+    display: flex;
+    margin-left: 15px;
+}
+
+.doubleIcon{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.singleIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+}
+
+.smallerDiv{
+    width: 20%;
+}
+
+.biggerDiv{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.finishCall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(72, 72, 72);
+    color: red;
+}
+
+.lastFoot{
+    display: flex;
+    justify-content: end;
+}
