@@ -8,10 +8,13 @@ body{
     background-color: black;
 }
 
+/* header css */
+
 header{
-    position: absolute;
+    position: fixed;
     display: flex;
     right: 0;
+    z-index: 1;
 }
 
 header div{
@@ -37,3 +40,43 @@ header div{
 .zoom{
     width: 25px;
 }
+
+/* main css */
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6%;
+    overflow-y: auto;
+    height: calc(100vh - 70px);
+}
+
+main > div {
+    position: relative;
+    margin: 5px;
+}
+
+.mute{
+    color: white;
+    background-color: rgba(151, 148, 148, 0.4);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 4px;
+    z-index: 1;
+}
+
+main img{
+    position: relative;
+}
+
+/* footer css */
+
+footer{
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+}
+
